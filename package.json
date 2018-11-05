@@ -1,0 +1,19 @@
+{
+  "name": "image-manager",
+  "version": "1.0.0",
+  "description": "轻松管理你的图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyrieek/image-manager.git"
+  },
+  "author": "Tian hao",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lyrieek/image-manager/issues"
+  },
+  "homepage": "https://github.com/lyrieek/image-manager#readme"
+}
