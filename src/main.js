@@ -9,10 +9,8 @@ import 'element-ui/lib/theme-default/index.css'
 Vue.use(ElementUI)
 Vue.use(VueRouter)
 
-const router = new VueRouter({ routes });
-
 new Vue({
 	el: '#app',
-	router,
+	router: new VueRouter({ routes }),
 	render: h => h(App)
 })

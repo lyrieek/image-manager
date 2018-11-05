@@ -8,7 +8,9 @@
 
 	export default {
 		name: 'app',
-		data: {},
+		data: {
+			time: new Date()
+		},
 		beforeCreate() {
 			if (this.$route.path !== '/login') {
 				this.$router.push({ path: '/login' })
