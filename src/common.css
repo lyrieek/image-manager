@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+[class*=" el-icon-"],
+[class^=el-icon-] {
+	text-decoration: none;
+}

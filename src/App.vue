@@ -3,18 +3,19 @@
 </template>
 
 <script>
-	import Nav from './components/Nav.vue'
 	import Login from './views/Login.vue'
 
 	export default {
 		name: 'app',
-		data: {
-			time: new Date()
+		data: () => {
+			return {
+				time: +new Date()
+			}
 		},
 		beforeCreate() {
-			if (this.$route.path !== '/login') {
-				this.$router.push({ path: '/login' })
-			}
+			// if (this.$route.path !== '/login') {
+			// 	this.$router.go('/login')
+			// }
 		}
 	}
 
